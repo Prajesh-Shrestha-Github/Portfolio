@@ -2,6 +2,7 @@
 import React from 'react';
 import galaxyRetailersImage from '../assets/Galaxy Retailers.png'; // Importing the image
 import dataScienceImage from '../assets/Data Science.png';
+import bonsaiHeavenImage from '../assets/Bonsai Heaven.png';
 
 const projectData = [
   {
@@ -16,7 +17,14 @@ const projectData = [
     title: 'Data Science',
     description:
       'The project utilizes Python in Jupyter Notebook to analyze dataset of salaries. Leveraged Python libraries such as NumPy, pandas, and Matplotlib for data manipulation and visualization tasks.',
-    link: 'https://github.com/Prajesh-Shrestha-Github/Data-Science.git',
+    link: 'https://github.com/Prajesh-Shrestha-Github/Salary-Data-Analysis-and-Understanding.git',
+  },
+  {
+    image: bonsaiHeavenImage,  // Using the imported image
+    title: 'Bonsai Heaven',
+    description:
+      'The project utilizes vanilla HTML,CSS and JS to create an ecommerce platform for selling bonsai products. The website includes landing page, product page, about us and many more.',
+    link: 'https://github.com/Prajesh-Shrestha-Github/Bonsai-Heaven-Ecommerce-Platform.git',
   },
   
 ];
@@ -36,7 +44,7 @@ const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-600 hover:underline"
+                className="text-indigo-900 hover:underline"
               >
                 View More
               </a>

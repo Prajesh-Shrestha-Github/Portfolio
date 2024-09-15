@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard({ image, title, description, link }) {
     return (
-        <div className="bg-white shadow-md p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+        <div className="bg-black shadow-md p-4 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
             <img
                 src={image}
                 alt={title}
